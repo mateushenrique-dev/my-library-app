@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-library",
-    "slug": "my-library",
+    "name": "Minha biblioteca",
+    "slug": "minha-biblioteca",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,6 +13,8 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "sdkVersion": "42.0.0",
+    "description": "Um aplicativo para você armazenar os seus livros",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -20,13 +22,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mylibrary.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/book_upload.png"
     }
   }
 }
